@@ -106,7 +106,70 @@ var b;
 b = a;
 console.log(b);
 ______________________________________________________________________________
-Level #2 Video # -... */
+Level #2 Video #8 -basic operator JS 
+let n = 5;
+console.log(n);
+n += 5;
+console.log(n);
+n *= 5;
+console.log(n);
+n **= 5;
+console.log(n);
+n %= 5;
+console.log(n);
+
+short handle ++ and -- only
+n ++;
+n ++;
+n ++;
+n --;
+console.log(n);
+
+Ex
+let a = 4 + 7;
+let b = 5 * 9;
+let c = b / a;
+console.log(c);
+______________________________________________________________________________
+Level #2 Video #10 - if-the-else
+
+let myApples = 5;
+myApples += 10;
+console.log("I have", myApples + " "  + "Apples");
+
+let sansung = 15;
+if(sansung === 10){
+  sansung += 20;
+  console.log(sansung);
+} else {
+  sansung = 0;
+  console.log("I have", sansung, "sansung");
+}
+
+______________________________________________________________________________
+Level #2 Video #11 - condocional statments
+
+if - to execute a block if condotion is true
+  else - to execute a block if same condotion is false
+    else if - to execute a new block if condotion is true
+      switch - to execute many alternative blocks
+
+Sintax
+if(condition){
+  code block to be executed
+}
+
+let hour = 22.3;
+
+if(hour < 8){
+  console.log("goodmorning");
+} else if(hour > 19){
+  console.log("goodnight");
+} else {
+  console.log("goodevening");
+}*/
+
+
 
 
 
