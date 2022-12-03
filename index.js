@@ -274,24 +274,27 @@ let arr = []; //array undefined (empty)
 let array = ["apple", "orange", "banana", 77, 88];
 // array index
 console.log(array[1]);
-_____________________________________________________________________________Level #2 Video #22 - arrays whit for loop and  if - elese
+______________________________________________________________________________
+Level #2 Video #22 - arrays whit for loop and  if - elese
 
 let ar = [];
 for(let i = 8; i < 16; i++){
   ar.push(i);
 }
 console.log(ar);
-console.log(ar[3]);*/
+console.log(ar[3]);
 
-let ari = [1, 5, 34];
+//found numbers menor than 7
 
-for(let i = 0; i < ari.length; i++){
-  ari.push([i]);
+let ari = [1, 9, 5, 55, 15, 14, 6, 3, 7, 18, 34];
+let len = ari.length;
+for(let i = 0; i < len; i++){
+  if(ari[i] < 7 ){
+    console.log(ari[i])    
+  }
 }
-console.log(ari);
-
-
-
+______________________________________________________________________________
+Level #2 Video #22 - arrays whit for loop and  if - eles*/
 
 
 
