@@ -202,23 +202,93 @@ if (y == "Blue"){
   console.log(" No Blue or Green detected");
 }
 ______________________________________________________________________________
-Level #2 Video #13 - More comparison types*/
+Level #2 Video #13 - More comparison types
+
+const { equal } = require("assert");
+const { type } = require("os");
+
 let num = 9;
+/*==  iqual to
+  === iqual vaule and type
+  !=  not equal
+  !== not equal value and type
+
 if(num !==7){
   console.log("Not seven");
 } else {
   consoel.log("Lucky number seven");
 }
+______________________________________________________________________________
+Level #2 Video #15 - Exercise
 
+let n = 55;
+if(n > 45 && n < 65){
+  console.log(n);
+}else{
+}
+______________________________________________________________________________
+Level #2 Video #16 - while loop
+//simple loop
 
+let  i = 0;
+while (i < 8){
+console.log(i);
+i++;
+}
 
+let  h = 0;
+while (h < 8){
+h++;
+console.log(h);
+}
 
+let  f = 0;
+while (f < 8){
+f++;
+}
+console.log(i);
+_____________________________________________________________________________
+Level #2 Video #17 - Exercise
 
+let  i = 2;
+while (i < 10){
+console.log(i);
+i++;
+}
+______________________________________________________________________________
+Level #2 Video #18 - for loop
 
+for(let i = 2; i < 10; i++){
+  console.log(i);
+}
 
+for(let h = 2; h < 10; h++){
+  // doesnt work becouse h is inside loop
+ }
+console.log(h);
+_____________________________________________________________________________
+Level #2 Video #20 - arrays
 
+let arr = []; //array undefined (empty)
 
+let array = ["apple", "orange", "banana", 77, 88];
+// array index
+console.log(array[1]);
+_____________________________________________________________________________Level #2 Video #22 - arrays whit for loop and  if - elese
 
+let ar = [];
+for(let i = 8; i < 16; i++){
+  ar.push(i);
+}
+console.log(ar);
+console.log(ar[3]);*/
+
+let ari = [1, 5, 34];
+
+for(let i = 0; i < ari.length; i++){
+  ari.push([i]);
+}
+console.log(ari);
 
 
 
