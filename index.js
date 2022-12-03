@@ -154,7 +154,7 @@ if - to execute a block if condotion is true
     else if - to execute a new block if condotion is true
       switch - to execute many alternative blocks
 
-Sintax
+Sintax if/else
 if(condition){
   code block to be executed
 }
@@ -167,13 +167,48 @@ if(hour < 8){
   console.log("goodnight");
 } else {
   console.log("goodevening");
-}*/
+}
 
+Sintax swutch
 
+switch(expression){
+  case x:
+    code block;
+    break;
+  case y:
+    code block;
+    break;
+  default:
+    code block;
+}
+______________________________________________________________________________
+Level #2 Video #12 - Exercise
 
+let x = 9;
 
+if(x == 9){
+  console.log("True");
+} else {
+  console.log("False");
+}
 
+let y ="yellow"
 
+if (y == "Blue"){
+  console.log("Blue detected");
+} else if (y === "Green"){
+  console.log("Green detected");
+} else {
+  console.log(" No Blue or Green detected");
+}
+______________________________________________________________________________
+Level #2 Video #13 - More comparison types*/
+let num = 9;
+if(num !==7){
+  console.log("Not seven");
+} else {
+  consoel.log("Lucky number seven");
+}
 
 
 
