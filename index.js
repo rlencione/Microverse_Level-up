@@ -294,11 +294,19 @@ for(let i = 0; i < len; i++){
   }
 }
 ______________________________________________________________________________
-Level #2 Video #22 - arrays whit for loop and  if - eles*/
+Level #2 Video #23 - exercise
 
+let arr = [1,2,3,4,5,6,7,8,9,10];
+let nos = [];
+for(i = 0; i < arr.length; i++){
+  if(arr[i] > 4){
+  nos.push(arr[i])
+} 
+}
 
-
-
+console.log(nos);
+______________________________________________________________________________
+Level #2 Video #26 - FreeCode Camp coding challenges*/
 
 
 
