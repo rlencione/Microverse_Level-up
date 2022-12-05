@@ -306,7 +306,88 @@ for(i = 0; i < arr.length; i++){
 
 console.log(nos);
 ______________________________________________________________________________
-Level #2 Video #26 - FreeCode Camp coding challenges*/
+Level #2 Video #26 - FreeCode Camp coding challenges
+
+Ex01 understanding Bolean values
+
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return false // (or true); // Change this line
+
+  // Only change code above this line
+}
+
+Ex02 Conditional Logic with If Statements
+
+function trueOrFalse(wasThatTrue) {
+  if(wasThatTrue != 0){
+    return "Yes";
+  }else{
+    return "No";
+  }
+}
+let result = trueOrFalse("true");
+console.log(result);
+
+Ex03 Comparison with the Equality Operator
+
+function testEqual(val) {
+  if (val == 12) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+let func = testEqual(10);
+console.log(func);
+
+Ex04 Comparison with the Strict Equality Operator
+
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+let func = testStrict(7);
+console.log(func);
+
+Ex05 Practice comparing different values
+
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");
+
+Level #2 Video #26 Ex06 array*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
