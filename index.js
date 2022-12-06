@@ -365,7 +365,68 @@ function compareEquality(a, b) {
 
 compareEquality(10, "10");
 
-Level #2 Video #26 Ex06 array*/
+Ex06 Store Multiple Values in one Variable
+
+//nested array
+const myArray = [["sacola", "armario"], ["gravata", 45]];
+
+//access the data inside arrays using indexes
+const myArray = [50, 60, 70];
+const myData = myArray[0];
+console.log(myData);
+
+Ex06 While Loops
+// while - starts whem the condition is true and stops whem condition is false
+
+const ourArray = [];
+let i = 6;
+while(i > 1){
+  i--
+  ourArray.push(i);
+  
+}
+console.log(ourArray);
+
+Ex07 While Loops
+
+const myArray = [];
+for(let i = 1; i <= 5; i++){
+  myArray.push(i);
+}
+console.log(myArray);
+
+Ex08 Iterate Odd Numbers With a For Loop
+
+const myArray = [];
+
+for(let i = 1; i <= 9; i+=2){
+  myArray.push(i);
+}
+console.log(myArray);
+
+Ex09 Count Backwards With a For Loop
+
+const myArray = [];
+
+for(let i = 9; i > 0; i-=2){
+  myArray.push(i);
+}
+console.log(myArray);
+
+Ex10 Iterate Through an Array with a For Loop*/
+const myArray = [2, 3, 4, 5, 6];
+let total = 0;
+for(let i = 0; i < myArray.length; i++){
+  total = (myArray[i]);
+ 
+}
+console.log(total);
+
+
+
+
+
+
 
 
 
