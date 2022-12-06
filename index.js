@@ -413,16 +413,36 @@ for(let i = 9; i > 0; i-=2){
 }
 console.log(myArray);
 
-Ex10 Iterate Through an Array with a For Loop*/
+Ex10 Iterate Through an Array with a For Loop
 const myArray = [2, 3, 4, 5, 6];
 let total = 0;
 for(let i = 0; i < myArray.length; i++){
-  total = (myArray[i]);
- 
+  total = (myArray[i]) + total;
+  console.log(total);
 }
-console.log(total);
 
+Ex11 Nesting for loops
 
+function multiplyAll(arr) {
+  let product = 1;
+  for(let i = 0; i < arr.length; i++){
+  for(let j = 0; j < arr[i].length; j++){
+    product = (arr[i][j] *= product);
+  }
+  }
+  return product;
+}
+
+let gord = multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+console.log(gord);
+__________________________________________________________________________________
+Level #3 Video #01 -
+SUbjects on level #3
+
+Array processing
+modifying loops
+Functions in JS
+__________________________________________________________________________________Level #3 Video #01 - */
 
 
 
