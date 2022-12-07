@@ -439,20 +439,65 @@ ________________________________________________________________________________
 Level #3 Video #01 -
 SUbjects on level #3
 
-Array processing
+Array processing 
 modifying loops
 Functions in JS
-__________________________________________________________________________________Level #3 Video #01 - */
+__________________________________________________________________________Level #3 Video #01 - Tweaking for loops
 
+for(i = 0; i < 100; i += 3){
+  console.log(i);
+}
 
+for(let i = 50; i > 0; i-=5){
+  console.log(i);
+}
 
+let tab = [];
 
+for(let i = 1; i <= 10; i++){
+    tab.push(i * 6);
+}
+  console.log(tab);
 
+for(let i = 102; i > 27; i-=3){
+  console.log(i);
+}_____________________________________________________________________
+Level #3 Video #04 - Array operation
 
+let arr = [ "apple", "orange", "banana", 77, 95, 101];
+let car = ["macarrao", "pao", "cha", "cebola"];
+arr.push("grape");
+// adiciona em ultimo lugar
+car.pop();
+// remove o ultimo
+let popped = arr.pop();
+console.log(popped);
+//remove e mostra o ultimo
+arr.shift();
+//remove o primeiro
+let shifted = car.shift();
+console.log(shifted);
+//remove e mostra o primeiro
+car.unshift("sopa");
+// adiciona em primeiro lugar
+car.splice(0,3);
+//remove do array sendo:(indice, a partir do indice)
+let spliced = arr.splice(0,3)
+console.log(car);
+//remove do array e os mostra sendo:(indice, a partir do indice)
+_________________________________________________________________________
+Level #3 Video #04 - Array operation
 
+let arr = [];
+for(i = 3; i < 13; i++){
+  arr.push(i);
+}
+console.log(arr);
+_________________________________________________________________________
+Level #3 Video #06 - Logical operators*/
 
-
-
+const num = 6;
+console.log(num);
 
 
 
