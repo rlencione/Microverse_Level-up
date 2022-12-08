@@ -496,13 +496,35 @@ console.log(arr);
 _________________________________________________________________________
 Level #3 Video #06 - Logical operators*/
 
-const num = 6;
-console.log(num);
+const num = 8;
+/*if(num > 6){
+  consol.log("Biger than nums");
+}
+if(num < 15){
+console.log("Smaller than nums");
+}
+if(num === 5 || num === 9 || num === 12){
+  console.log("Num is egual")
+  } else {
+  console.log("Num não eh igual")
+  }
+if((num > 3 && num < 6) || (num > 10 && num <18)){
+  console.log("Num into range")
+} else {
+  console.log("num out range")
+}
+_______________________________________________________________________________________
+Level #3 Video #07 - Exercises*/
 
+let arr = [3,10,9,5,2,11,7,15,12,4,1,13,6,14,8];
+let size = arr.length;
+for(i = 0; i < size; i++){
+ if(arr[i] >= 3 && arr[i] <= 7){
+  console.log(arr[i])
+} 
+}
 
-
-
-
+Ex01 - Comparisons with the Logical And Operator
 
 
 
